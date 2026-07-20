@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 84" width="340" height="84" role="img" aria-label="AOSC Labs">
+  <defs>
+    <linearGradient id="afl-a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF1744"/>
+      <stop offset="1" stop-color="#8B0000"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon -->
+  <g transform="translate(10,10)">
+    <path d="M6 17 V6 H17"  fill="none" stroke="#FF1744" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M47 6 H58 V17" fill="none" stroke="#2F4F4F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 47 V58 H17" fill="none" stroke="#2F4F4F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M47 58 H58 V47" fill="none" stroke="#FF1744" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="32" y1="6" x2="32" y2="10.5" stroke="#2F4F4F" stroke-width="2" stroke-linecap="round"/>
+    <line x1="32" y1="53.5" x2="32" y2="58" stroke="#2F4F4F" stroke-width="2" stroke-linecap="round"/>
+    <path d="M21 50 L32 13 L43 50" fill="none" stroke="url(#afl-a)" stroke-width="4.2" stroke-linejoin="miter" stroke-miterlimit="8"/>
+    <path d="M25.5 39 H38.5" stroke="url(#afl-a)" stroke-width="4.2" stroke-linecap="round"/>
+  </g>
+  <!-- Divider -->
+  <line x1="86" y1="22" x2="86" y2="62" stroke="#2F4F4F" stroke-width="1.5"/>
+  <!-- Wordmark -->
+  <text x="100" y="45" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="3" fill="#E8E8E8">AOSC</text>
+  <text x="101" y="67" font-family="'SFMono-Regular', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="8.5" fill="#FF1744">LABS</text>
+  <text x="196" y="67" font-family="'SFMono-Regular', ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1" fill="#2F4F4F">// offensive</text>
+</svg>

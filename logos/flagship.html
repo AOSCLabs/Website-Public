@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AOSC Labs — Flagship Logo</title>
+<style>
+  :root{--bg:#1A1A1A;--card:#212121;--text:#E8E8E8;--muted:#9a9a9a;--accent:#FF1744;--border:rgba(255,255,255,.08)}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,"Segoe UI",Roboto,sans-serif;padding:3rem 1.5rem}
+  h1{text-align:center;font-weight:800;letter-spacing:-.02em}
+  .sub{text-align:center;color:var(--muted);margin:.4rem 0 3rem}
+  .wrap{max-width:920px;margin:0 auto;display:grid;gap:2rem}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:2.5rem;text-align:center}
+  .card small{display:block;color:var(--muted);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-top:1.4rem}
+  .row{display:flex;align-items:center;justify-content:center;gap:3rem;flex-wrap:wrap}
+  .fav{background:#000;border-radius:8px;padding:6px}
+  .onlight{background:#E8E8E8;border-radius:12px;padding:1.5rem}
+</style>
+</head>
+<body>
+  <h1>AOSC Labs — Flagship Mark</h1>
+  <p class="sub">Target-lock reticle + arrowhead “A” · modern · technical · offensive</p>
+  <div class="wrap">
+    <div class="card">
+      <img src="aosc-flagship-lockup.svg" width="340" height="84" alt="AOSC Labs lockup">
+      <small>Primary horizontal lockup — website header</small>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div><img src="aosc-flagship-icon.svg" width="16" height="16" class="fav" alt=""><small>16</small></div>
+        <div><img src="aosc-flagship-icon.svg" width="32" height="32" class="fav" alt=""><small>32 · favicon</small></div>
+        <div><img src="aosc-flagship-icon.svg" width="64" height="64" alt=""><small>64</small></div>
+        <div><img src="aosc-flagship-icon.svg" width="120" height="120" alt=""><small>120 · app icon</small></div>
+      </div>
+      <small>Icon scales crisply from favicon to app tile</small>
+    </div>
+    <div class="card">
+      <div class="row">
+        <img src="aosc-flagship-stacked.svg" width="200" height="150" alt="AOSC Labs stacked">
+        <div class="onlight"><img src="aosc-flagship-lockup.svg" width="300" height="74" alt="on light"></div>
+      </div>
+      <small>Stacked variant · and lockup on light background</small>
+    </div>
+  </div>
+</body>
+</html>

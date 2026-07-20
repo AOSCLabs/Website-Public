@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="200" height="200" role="img" aria-label="AOSC Labs">
+  <defs>
+    <linearGradient id="af-a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF1744"/>
+      <stop offset="1" stop-color="#8B0000"/>
+    </linearGradient>
+  </defs>
+  <!-- Target-lock reticle: diagonal two-tone corner brackets -->
+  <path d="M6 17 V6 H17"  fill="none" stroke="#FF1744" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 6 H58 V17" fill="none" stroke="#2F4F4F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 47 V58 H17" fill="none" stroke="#2F4F4F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 58 H58 V47" fill="none" stroke="#FF1744" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Reticle mid ticks -->
+  <line x1="32" y1="6" x2="32" y2="10.5" stroke="#2F4F4F" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="53.5" x2="32" y2="58" stroke="#2F4F4F" stroke-width="2" stroke-linecap="round"/>
+  <!-- "A" arrowhead monogram: sharp apex = offensive precision -->
+  <path d="M21 50 L32 13 L43 50" fill="none" stroke="url(#af-a)" stroke-width="4.2" stroke-linejoin="miter" stroke-miterlimit="8"/>
+  <path d="M25.5 39 H38.5" stroke="url(#af-a)" stroke-width="4.2" stroke-linecap="round"/>
+</svg>
